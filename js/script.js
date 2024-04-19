@@ -1,3 +1,4 @@
+// API key would not usually be exposed but this is just a training example for a free API
 const global = {
   currentPage: window.location.pathname,
   search: {
@@ -8,7 +9,7 @@ const global = {
     totalResults: 0,
   },
   api: {
-    apiKey: apiKey,
+    apiKey: "8ee2834dba7a6e2c544185afb0b0bfab",
     apiUrl: "https://api.themoviedb.org/3/",
   },
 };
