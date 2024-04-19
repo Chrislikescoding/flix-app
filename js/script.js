@@ -1,11 +1,3 @@
-//api key 8ee2834dba7a6e2c544185afb0b0bfab
-
-// Read access token
-// eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZWUyODM0ZGJhN2E2ZTJjNTQ0MTg1YWZiMGIwYmZhYiIsInN1YiI6IjY2MWQwOTU4NjBjNTFkMDE4NjRlYzc5ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.lQVP3KDbiczXBtNXM9PtdZDjYGIJBXBaP1bTrtwgVu8
-
-//global information, API key wuld not notmally be revealed, revealing in this instance because
-// The Movie database is a free API so key is of no particular value
-
 const global = {
   currentPage: window.location.pathname,
   search: {
@@ -16,7 +8,7 @@ const global = {
     totalResults: 0,
   },
   api: {
-    apiKey: "8ee2834dba7a6e2c544185afb0b0bfab",
+    apiKey: "xxxxxx",
     apiUrl: "https://api.themoviedb.org/3/",
   },
 };
